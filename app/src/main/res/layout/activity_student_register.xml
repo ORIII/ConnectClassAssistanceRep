@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.aclass.connect.connectclassassistance.TeacherLoginActivity">
+    android:layout_margin="35dp"
+    tools:context="com.aclass.connect.connectclassassistance.StudentRegisterActivity">
 
     <RelativeLayout
-        android:id="@+id/imageLay"
+        android:id="@+id/lay"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="20dp">
+        android:layout_height="100dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -22,44 +22,52 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="50dp"
-        android:layout_below="@id/imageLay">
+        android:layout_below="@id/lay">
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name"/>
+
+        <EditText
+            android:id="@+id/lastNameField"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name"
+            android:layout_toRightOf="@id/nameField"/>
 
         <EditText
             android:id="@+id/emailField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/input_email"
-            android:inputType="textEmailAddress"/>
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/nameField"/>
 
         <EditText
             android:id="@+id/passField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/input_password"
-            android:layout_below="@id/emailField"
-            android:layout_marginTop="10dp"/>
+            android:layout_below="@id/emailField"/>
+
+        <EditText
+            android:id="@+id/pass2Field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:layout_below="@id/passField"/>
 
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/submitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/passField"
-            android:text="@string/login"
+            android:text="@string/submit"
+            android:layout_below="@+id/pass2Field"
             android:layout_centerInParent="true"
             android:layout_marginTop="10dp"/>
 
-        <TextView
-            android:id="@+id/registerButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Are you a teacher ? Click here to register"
-            android:layout_below="@id/loginButton"
-            android:layout_marginTop="11dp"
-            android:layout_centerInParent="true"/>
-
     </RelativeLayout>
-
-
 
 </android.widget.RelativeLayout>

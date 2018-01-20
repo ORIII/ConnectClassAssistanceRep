@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".TeacherLoginActivity" />
-        <activity android:name=".StudentLoginActivity"></activity>
+        <activity android:name=".StudentLoginActivity" />
+        <activity android:name=".TeacherRegisterActivity" />
+        <activity android:name=".StudentRegisterActivity"></activity>
     </application>
 
 </manifest>
