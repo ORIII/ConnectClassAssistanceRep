@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConnectClassAssistance_AndroidProject.iml" filepath="$PROJECT_DIR$/ConnectClassAssistance_AndroidProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectClassAssistanceRep.iml" filepath="$PROJECT_DIR$/ConnectClassAssistanceRep.iml" />
+      <module fileurl="file://C:\Users\user\AndroidStudioProjects\ConnectClassAssistanceRep\ConnectClassAssistance_AndroidProject.iml" filepath="C:\Users\user\AndroidStudioProjects\ConnectClassAssistanceRep\ConnectClassAssistance_AndroidProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\user\AndroidStudioProjects\ConnectClassAssistanceRep\app\app.iml" filepath="C:\Users\user\AndroidStudioProjects\ConnectClassAssistanceRep\app\app.iml" />
     </modules>
   </component>
 </project>
